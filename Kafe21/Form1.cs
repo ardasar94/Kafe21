@@ -134,6 +134,7 @@ namespace Kafe21
         {
             var json = JsonConvert.SerializeObject(db, Formatting.Indented);
             File.WriteAllText("veri.json", json);
+            sadsad
         }
     }
 }
