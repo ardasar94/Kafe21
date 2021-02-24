@@ -22,6 +22,6 @@ namespace Kafe21.Data
             return string.Format("{0} ({1:c2})", UrunAd, BirimFiyat);
         }
 
-        public virtual ICollection<SiparisDetay> SiparisDetay { get; set; }
+        public virtual ICollection<SiparisDetay> SiparisDetay { get; set; } = new HashSet<SiparisDetay>();
     }
 }
